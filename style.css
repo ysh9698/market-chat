@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@400;700&display=swap");
+
+body {
+  margin: 10px auto;
+  max-width: 380px;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  height: 600px;
+  min-height: 100%;
+  position: relative;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* header */
+header {
+  padding: 7px 0px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.bar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bar-left_icons img {
+  width: 25px;
+}
+
+.bar-left_name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.bar-left_tem {
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 15px;
+  margin-left: 6px;
+  padding: 3px 5px;
+  margin-bottom: 19px;
+}
+
+.bar-left_time {
+  font-size: 12px;
+  position: absolute;
+  left: 27%;
+  top: 65%;
+  color: #8e8e8e;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.bar-right_icons {
+  margin-right: 5px;
+}
+
+.bar-right_icons img {
+  width: 24px;
+  padding: 3px;
+}
+
+/* main */
+
+main {
+  width: 100%;
+  height: 500px;
+}
+
+.product {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.product img {
+  width: 60px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.product .product_title {
+  margin-left: 15px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #747474;
+}
+
+.product .product_price {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  right: 60%;
+}
+
+.chat {
+  margin: 10px auto;
+  width: 380px;
+}
+
+.chat .my-chat {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-right: 15px;
+}
+
+.chat .my-chat .my-chat_time {
+  font-size: 14px;
+  color: #747474;
+  opacity: 0.6;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.chat .my-chat .my-chat_message {
+  color: #fff;
+  background-color: #fe7e35;
+  padding: 10px 18px;
+  line-height: 1.5;
+  border-radius: 20px 2px 20px 20px;
+}
+
+.chat .other-chat {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.chat .other-chat .other-chat_profile img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.chat .other-chat .other-chat_message {
+  color: #000;
+  background-color: #dadada;
+  padding: 10px 18px;
+  line-height: 1.5;
+  border-radius: 2px 20px 20px 20px;
+  margin-left: 10px;
+}
+
+.chat .other-chat .other-chat_time {
+  font-size: 14px;
+  color: #747474;
+  opacity: 0.6;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.trade-promise {
+  width: 300px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  margin: 15px auto;
+  padding: 20px 20px 40px;
+  display: flex;
+  position: relative;
+}
+
+.trade-promise .trade-promise_icons img {
+  width: 20px;
+  background-color: #000;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.trade-promise .trade-promise_date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+
+.trade-promise .trade-promise_message {
+  position: absolute;
+  font-size: 14px;
+  color: #8e8e8e;
+  top: 60%;
+  left: 17%;
+}
+
+.promise_alarm {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #8e8e8e;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+/* footer */
+footer {
+  width: 380px;
+  height: 50px;
+  border-top: 1px solid #d5d5d5;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: border-box;
+}
+
+footer .plus img {
+  width: 24px;
+  opacity: 0.5;
+}
+
+.footer_message {
+  position: relative;
+}
+
+.footer_message > input {
+  width: 290px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  margin: 4px 0px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.footer_message > input:focus {
+  outline: none;
+}
+
+.footer_message > input::placeholder {
+  font-size: 18px;
+  opacity: 0.3;
+  font-weight: bold;
+}
+
+.footer_message img {
+  width: 27px;
+  position: absolute;
+  top: 19%;
+  right: 5%;
+}
+
+.message_send img {
+  width: 30px;
+  opacity: 0.2;
+}
+
+.footer_message .smile_sign {
+  width: 7px;
+  height: 7px;
+  background-color: #fe7e35;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 50;
+  top: 20%;
+  right: 3%;
+  opacity: 0.9;
+}
